@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">
+    <title>DOCUMENT</title>
+</head>
+<style>
+    main{
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <caption><p style="font-size: 30px; color: seagreen;"><b>인적사항</b></p></caption>
+    <main>
+        <p>
+            <label for="이름">이름:</label>
+            <input type="text" id="이름">
+            <br>
+            <label for="성별">성별:</label>
+            <input type="radio" id="gender" value="M">남성
+            <input type="radio" id="gender" value="F">여성
+            <br>
+            <label for="생년월일">생년월일:</label>
+            <input type="date" id="생년월일" min="1990-01-01" max="2025-04-10">
+            <br>
+            <label for="이메일">메일 주소:</label>
+            <input type="email" id="이메일 주소">
+        </p>
+    </main>
+    <br>
+    <input type="submit" value="제출">
+</body>
+</html>
